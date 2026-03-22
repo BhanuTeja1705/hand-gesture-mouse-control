@@ -6,32 +6,33 @@ A computer vision-based system that enables users to control the mouse, system v
 
 ## 🚀 Key Features
 
-- 🖐️ Real-time hand tracking using MediaPipe  
-- 🖱️ Cursor control using index finger movement  
-- 👆 Left and right click gestures  
-- 🔄 Scroll functionality using finger movement  
-- 🔊 Volume control using finger distance  
-- 💡 Screen brightness control using gestures  
-- 🤲 Supports two-hand interaction  
+- 🖐️ Real-time hand tracking using MediaPipe
+- 🖱️ Cursor control using index finger movement
+- 👆 Left and right click gestures
+- 🔄 Scroll functionality using finger movement
+- 🔊 Volume control using finger distance
+- 💡 Screen brightness control using gestures
+- 🤲 Supports two-hand interaction
 
 ---
 
 ## 🧠 Project Overview
 
-This project uses computer vision techniques to replace traditional input devices like a mouse.  
+This project uses computer vision techniques to replace traditional input devices like a mouse.
+
 By tracking hand landmarks and finger positions, the system converts gestures into system-level controls such as cursor movement, clicking, scrolling, volume adjustment, and brightness control.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python  
-- OpenCV  
-- MediaPipe  
-- PyAutoGUI  
-- TensorFlow  
-- PyCAW (Windows Audio Control)  
-- Screen Brightness Control  
+- Python
+- OpenCV
+- MediaPipe
+- PyAutoGUI
+- TensorFlow
+- PyCAW (Windows Audio Control)
+- Screen Brightness Control
 
 ---
 
@@ -42,23 +43,26 @@ hand-gesture-mouse-control/
 ├── main.py              # Main application file
 ├── requirements.txt     # Dependencies
 ├── README.md            # Documentation
+```
+## ⚙️ Installation
 
-
-⚙️ Installation
-
-Clone the repository:
+### Clone the repository
+```bash
 git clone https://github.com/BhanuTeja1705/hand-gesture-mouse-control.git
-
-Navigate to the project folder:
+```
+Navigate to the project folder
+```bash
 cd hand-gesture-mouse-control
-
-Install dependencies:
+```
+Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ▶️ Run the Project
+```bash
 python main.py
-
-🎯 Gesture Controls
+```
+## 🎯 Gesture Controls
 
 ✋ Right Hand
 
@@ -88,8 +92,11 @@ python main.py
 
 🤖 Integrate AI-based gesture recognition
 
-👨‍💻 Author
+## 👨‍💻 Author
+
 
 Goriparthi Bhanu Teja
 
-⭐ If you like this project, give it a star!
+⭐ Support
+
+If you like this project, give it a star!
